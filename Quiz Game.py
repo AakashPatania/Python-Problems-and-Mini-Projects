@@ -42,8 +42,7 @@ for question in Questions:
         print("Correct")
     else:
         print("Incorrect")
-        print(f"{Answers
-        [question_num]} is the correct answer")    
+        print(f"{Answers[question_num]} is the correct answer")    
 
     question_num = question_num +1
 
