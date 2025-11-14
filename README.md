@@ -1,2 +1,2 @@
 # Python-Problems-and-Mini-Projects
-This repository contains Python problems and mini projects I created to help you practice and strengthen your Python programming skills.
+I had strengthened my Python programming skills by working on various problems and mini projects. In this repository, I will be sharing these projects and problem solutions one by one.”
