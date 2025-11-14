@@ -34,9 +34,17 @@ for question in Questions:
         print(i)
 
 
-    guess = input("Enter (A,B,C,D): ").upper()
-    Guesses.append(guess)
+    ## Validation loop                                                   We can also use while not instead of while True
+    while True:    
+        guess = input("Enter (A,B,C,D): ").upper()                       #guess = guess = input("Enter (A,B,C,D): ").upper()  
 
+        if guess in ("A","B","C", "D"):                                  #while guess not in ("A", "B", "C", "D"):
+            break                                                            # print("Invalid")
+        else:                                                                 # guess = input("Enter (A,B,C,D): ").upper()
+            print("Invalid Choice. Please choose only A, B, C, D")
+    
+
+    Guesses.append(guess)
     if guess == Answers[question_num]:
         Score = Score +1
         print("Correct")
