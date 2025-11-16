@@ -26,7 +26,7 @@
 
 
 foods = []
-prices = []
+prices = []       
 total = 0
 
 while True:
